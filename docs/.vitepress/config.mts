@@ -21,9 +21,24 @@ export default defineConfig({
         ]
       },
       {
+        text: '绑定',
+        items: [
+          { text: '个人绑定', link: '/bind/self' },
+          { text: '群组绑定', link: '/bind/group' },
+        ]
+      },
+      {
+        text: '使用',
+        items: [
+          { text: '织者', link: '/misty/weaver' },
+          { text: '角色卡', link: '/misty/role'},
+          { text: '创建迷雾', link: '/misty/creat'},
+        ]
+      },
+      {
         text: 'Bot使用',
         items: [
-          { text: '指令', link: '/bot/usage'}
+          { text: '迷雾指令', link: '/bot/usage'}
         ]
       },
       {
