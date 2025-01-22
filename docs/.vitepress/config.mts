@@ -23,6 +23,7 @@ export default defineConfig({
       {
         text: '绑定',
         items: [
+          { text: '绑定须知', link: '/bind/tips'},
           { text: '个人绑定', link: '/bind/self' },
           { text: '群组绑定', link: '/bind/group' },
         ]
