@@ -23,7 +23,6 @@ export default defineConfig({
       {
         text: '绑定',
         items: [
-          { text: '绑定须知', link: '/bind/tips'},
           { text: '个人绑定', link: '/bind/self' },
           { text: '群组绑定', link: '/bind/group' },
         ]
@@ -39,6 +38,7 @@ export default defineConfig({
       {
         text: 'Bot使用',
         items: [
+          { text: '使用须知', link: '/bot/tips'},
           { text: '迷雾指令', link: '/bot/usage'}
         ]
       },
